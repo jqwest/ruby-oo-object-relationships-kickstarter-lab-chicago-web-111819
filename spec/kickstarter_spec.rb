@@ -100,7 +100,7 @@ describe 'Backer - backed_projects' do
 end
 
 describe 'Project - backers' do
-  it 'returns an array of projects that associated with this Project instance' do
+  it 'returns an array of projects that are associated with this Project instance' do
     ProjectBacker.class_variable_set(:@@all, [])
     book = Project.new('Ruby, Ruby, and More Ruby')
     magic = Project.new('Magic The Gathering Thing')
